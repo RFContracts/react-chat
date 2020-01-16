@@ -1,0 +1,43 @@
+.add-message {
+    width: 100%;
+    border: 1px solid #4a76a8;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom-right-radius: 3px;
+}
+
+.add-message-form {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.add-message__input {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    padding: 10px;
+    color: #6d7c8a;
+}
+
+.add-message__input::placeholder {
+    color: #6d7c8a;
+}
+
+.add-message__btn {
+    min-width: 70px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #4a76a8;
+    color: #ffffff;
+    font-size: 16px;
+    transition: .5s;
+}
+
+.add-message__btn:hover {
+    background: #5f8abb;
+}
